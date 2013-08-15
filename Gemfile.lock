@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/plataformatec/devise.git
+  revision: 6b5988d756d780903bf8c9ccb3e2b3b724ccebe8
+  branch: rails4
+  specs:
+    devise (2.2.4)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      warden (~> 1.2.1)
+
+GIT
   remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
   revision: 4c54e85f8dac55997751f4229ba1471c932adb6b
   specs:
@@ -17,17 +28,6 @@ GIT
       moped (~> 1.5)
       origin (~> 1.0)
       tzinfo (~> 0.3.22)
-
-GIT
-  remote: https://github.com/plataformatec/devise.git
-  revision: 58cbd915124c42fcee365581a7966a7edfdeadfe
-  specs:
-    devise (3.1.0.rc)
-      bcrypt-ruby (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
-      thread_safe (~> 0.1)
-      warden (~> 1.2.3)
 
 GEM
   remote: https://rubygems.org/
