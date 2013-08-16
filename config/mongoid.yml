@@ -5,12 +5,10 @@ development:
     default:
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
-      database: funky_development
-      # Provides the hosts the default session can connect to. Must be an array
-      # of host:port pairs. (required)
-      hosts:
-        - localhost:27017
+      uri: mongodb://nileshpatil47:npatil47@paulo.mongohq.com:10000/funky_development
       options:
+        skip_version_check: true
+        safe: true
         # Change whether the session persists in safe mode by default.
         # (default: false)
         # safe: false
