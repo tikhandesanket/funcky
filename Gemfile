@@ -31,6 +31,7 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 #gem 'devise', :git => "https://github.com/plataformatec/devise.git"
 
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
