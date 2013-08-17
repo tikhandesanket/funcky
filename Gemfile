@@ -29,7 +29,7 @@ gem "therubyracer"
 gem "less-rails"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
-#gem 'devise', :git => "https://github.com/plataformatec/devise.git"
+gem 'rspec-rails'
 
 
 group :doc do
