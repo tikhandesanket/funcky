@@ -25,7 +25,6 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
-    @product.image = product_params[:image]
      respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
@@ -42,11 +41,6 @@ class ProductsController < ApplicationController
   def update
     respond_to do |format|
       if @product.update(product_params)
-        puts '**************************************************************************'
-        puts product_params.to_json
-        puts '**************************************************************************'
-        # @product.image = product_params[:image][:uploaded_data]
-        # @product.save
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { head :no_content }
       else
