@@ -80,7 +80,7 @@ production:
     default:
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
-      uri: mongodb://nileshpatil47@yahoo.com:npatil47@paulo.mongohq.com:10000/funky_development
+      uri: mongodb://54.251.43.149:27017/funky_development
 
       options:
         consistency: :strong 
